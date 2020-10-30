@@ -1,0 +1,636 @@
+:root{
+    --bg-color: #353535;
+    --bg-h: #575757;
+    --text-header: #DCDCDC;
+    --green-color:#1BBC9B;
+
+}
+body{
+    background-color: var(--bg-color);
+    /*font-family: "B Mitra"*/
+;
+    width:100%;
+    color: white;
+
+
+}
+.clearfix{
+    clear: both;
+    float: none;
+}
+.container{
+    width: auto;
+}
+/*---------------start header--------------------*/
+.container header{
+    background-color: white;
+
+    color: var(--text-header);
+}
+.container header .logo{
+    float:left;
+    width: 50%;
+    padding-left: 100px;
+    padding-top: 10px;
+}
+.container header .logo img{
+    float: left;
+}
+.container header .logo h1{
+    float: left;
+    padding-top: 10px;
+    padding-left: 7px;
+    font-weight: 800;
+
+}
+.container ul.menu-bar{
+    float:left;
+    width: 50%;
+    display: inline-block;
+   padding-left: 93px;
+
+}
+.container ul.menu-bar li{
+    display: inline-block;
+    padding-top: 12px;
+    margin-left: 10px;
+}
+.container ul.menu-bar li a{
+    color: var(--text-header);
+    font-weight: 800;
+}
+.container ul.menu-bar li a:hover{
+    color: #721c24;
+}
+.container ul.menu-bar li:first-child a {
+    color: var(--green-color);
+
+}
+/*--------------end header---------------------*/
+
+
+/*--------------start slider---------------------*/
+.container .slider{
+    /*position: relative;*/
+    width:100%;
+    height: 500px;
+
+
+
+}
+.container .slider img{
+    width: 100%;
+    height: 500px;
+}
+.container .text-slider{
+    position: absolute;
+    margin: -383px 334px;
+}
+.container .text-slider h1{
+    width:432px;
+    /*font-family: "B Mitra";*/
+    font-size: 47px;
+    padding-top: 10px;
+    background-color: #5E5E5E;
+    backface-visibility: visible;
+    opacity: 0.5;
+}
+.container .text-slider h3{
+    width:400px;
+    font-size: 26px;
+    /*font-family: "B Mitra";*/
+    background-color:#5E5E5E ;
+    margin-right: 15px;
+    margin-top: 14px;
+    text-align: right;
+    opacity: 0.5;
+}
+.container .text-slider ul.social{
+    padding: 10px 180px;
+}
+.container .text-slider ul.social li{
+    display: inline-block;
+    padding-left: 5px;
+    box-sizing: border-box;
+}
+.container .text-slider ul.social li a{}
+.container .text-slider ul.social li a i{
+    color:white;
+    background-color:#5E5E5E;
+    background-position: center;
+    background-size: 10px;
+    font-size: 21px;
+}
+.container .footer{
+    background-color: var(--green-color);
+    padding: 10px;
+    margin-top: -30px;
+    box-sizing: border-box;
+
+}
+.container .footer h4{
+    padding:  4px 134px;
+    font-weight: bold;
+    color: white;
+    /*font-family: "B Mitra";*/
+    font-size: 14px;
+}
+/*--------------end slider---------------------*/
+
+/*--------------start obout me---------------------*/
+.container .about-me{
+    background-color: white;
+    box-sizing: border-box;
+    height: 620px;
+}
+.container .about-me #down-triangle {
+    width: 0;
+    height: 0;
+    border-top: 10px solid var(--green-color);
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    margin-left: 235px;
+}
+.container .about-me .about-me1{}
+.container .about-me .about-me1 img{
+    float: left;
+    width: 30%;
+    border-radius: 165px;
+    padding: 53px;
+}
+.container .about-me .about-me1 .about-me2{
+    float: left;
+    width: 70%;
+    padding: 77px 57px;
+}
+.container .about-me .about-me1 .about-me2 p{
+    color: #8e8a8a;
+    /*font-family: "B Mitra";*/
+    font-size: 20px;
+}
+.container .about-me .doing{
+    color:#8e8a8a;
+    text-align: justify;
+    font-size: 15px;
+}
+.container .about-me .doing h1{
+    padding-bottom: 15px;
+    color: black;
+    font-weight: bold;
+}
+.container .about-me .doing .d1{
+float: left;
+width:30%;
+    padding-right: 80px;
+    margin-left: 92px;
+    box-sizing: border-box;
+}
+.container .about-me .doing .d2{
+    float: left;
+    width:30%;
+    padding-right: 80px;
+    margin-left: 10px;
+    box-sizing: border-box;
+}
+.container .about-me .doing .d2 a{}
+.container .about-me .doing .d2 a i{
+    background-color: #3F8DBE;
+    color: white;
+    margin: 18px 72px;
+    padding: 6px 10px;
+}
+.container .about-me .doing .d3{
+    float: left;
+    width:30%;
+    padding-right: 80px;
+}
+.container .footer2{
+    background-color: var(--green-color);
+    padding: 10px;
+    margin-top: -30px;
+    box-sizing: border-box;
+
+}
+.container .footer2 h4{
+    font-weight: bold;
+    padding:  4px 134px;
+    color: white;
+    /*font-family: "B Mitra";*/
+    font-size: 14px;
+}
+
+/*--------------end obout me---------------------*/
+/*--------------start portfolio---------------------*/
+.container .portfolio{}
+.container .portfolio #down-triangle1 {
+    width: 0;
+    height: 0;
+    border-top: 10px solid var(--green-color);
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    margin-left: 235px;
+}
+.container .portfolio .pics1{}
+.container .portfolio .pics1 h2{
+    padding-bottom: 14px;
+    margin-left: 212px;
+    margin-top: 51px;
+    font-weight: bold;
+    font-size: 13px;
+}
+.container .portfolio .pics1 p{
+    padding-left:214px;
+    margin-bottom: 35px;
+    font-size: 13px;
+}
+.container .portfolio .pics1 img{
+    width: 367px;
+    height: 366px;
+}
+.container .portfolio .pics2{}
+.container .portfolio .pics2 h2{
+    padding-bottom: 14px;
+    margin-left: 212px;
+    margin-top: 51px;
+    font-weight: bold;
+    font-size: 13px;
+}
+.container .portfolio .pics2 p{
+    padding-left:214px;
+    margin-bottom: 35px;
+    font-size: 13px;
+}
+.container .portfolio .pics2 img{
+        width: 367px;
+    height: 375px;
+}
+.container .footer3{
+    background-color: var(--green-color);
+    padding: 10px;
+    box-sizing: border-box;
+    margin-top: 38px;
+
+}
+.container .footer3 h4{
+    font-weight: bold;
+    padding:  4px 134px;
+    color: white;
+    /*font-family: "B Mitra";*/
+    font-size: 14px;
+}
+/*--------------end portfolio---------------------*/
+
+
+/*--------------start posts---------------------*/
+/*****gol1*******/
+.container .post{
+    background-color:#F0F0F0;
+    color: black;
+}
+.container .post #down-triangle2 {
+    width: 0;
+    height: 0;
+    border-top: 10px solid var(--green-color);
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    margin-left: 235px;
+}
+.container .post .post1{}
+.container .post .post1 .pt11{
+    float: left;
+    width: 40%;
+    text-align: justify;
+    background-color:white;
+    margin: 90px;
+}
+.container .post .post1 .pt11 img{
+    width: 445px;
+}
+.container .post .post1 .pt11 ul{
+    float: left;
+    width: 95%;
+    background-color: #F9F9F9;
+    padding-top: 10px;
+}
+.container .post .post1 .pt11 ul li{
+display: inline-block;
+    position: relative;
+    color:grey;
+    padding-bottom: 5px;
+    margin: 9px;
+    font-weight: bold;
+    font-size: 12px;
+}
+.container .post .post1 .pt11 ul li:first-child:before{
+    content: ' ';
+    position: absolute;
+    width: 1px;
+    height: 15px;
+    right: -10px;
+    background-color: grey;
+}
+
+.container .post .post1 .pt11 a{
+    float: left;
+    width: 5%;
+    background-color: #F9F9F9;
+    padding-top: 45px;
+}
+.container .post .post1 .pt11 a i{
+    color: red;
+    position: absolute;
+    margin-left: -4px;
+    margin-top: -30px;
+}
+.container .post .post1 .pt11 h1{
+    padding: 10px;
+    font-weight: bold;
+    font-size: 15px;
+}
+.container .post .post1 .pt11 p{
+    padding: 10px;
+    font-size: 15px;
+}
+
+/*****gol2*******/
+.container .post .post1 .pt12{
+    float: left;
+    width: 40%;
+    text-align: justify;
+    background-color: white;
+    margin-top: 88px;
+    margin-left: -46px;
+}
+.container .post .post1 .pt12 img{
+    width: 445px;
+}
+.container .post .post1 .pt12 ul{
+    float: left;
+    width: 95%;
+    background-color:#F9F9F9;
+    padding-top: 10px;
+
+}
+.container .post .post1 .pt12 ul li{
+    display: inline-block;
+    position: relative;
+    color:grey;
+    padding-bottom: 5px;
+    margin: 9px;
+    font-weight: bold;
+    font-size: 12px;
+
+}
+.container .post .post1 .pt12 ul li:first-child:before{
+    content: ' ';
+    position: absolute;
+    width: 1px;
+    height: 15px;
+    right: -10px;
+    background-color: grey;
+}
+.container .post .post1 .pt12 a{
+    float: left;
+     width: 5%;
+    background-color: #F9F9F9;
+    padding-top: 45px;
+}
+.container .post .post1 .pt12 a i{
+    color: red;
+    position: absolute;
+    margin-left: -4px;
+    margin-top: -30px;
+}
+.container .post .post1 .pt12 h1{
+    padding: 10px;
+    font-weight: bold;
+    font-size: 15px;
+}
+.container .post .post1 .pt12 p{
+    padding: 10px;
+    font-size: 15px;
+}
+/*****gol3*******/
+.container .post .post2{}
+.container .post .post2 .pt21{
+    float: left;
+    width: 40%;
+    text-align: justify;
+    margin: 90px;
+    margin-top:-40px;
+
+    background-color: white;
+}
+.container .post .post2 .pt21 img{
+    width: 445px;
+}
+.container .post .post2 .pt21 ul{
+    float: left;
+    width: 95%;
+    background-color: #F9F9F9;
+    padding-top: 10px;
+}
+.container .post .post2 .pt21 ul li{
+    display: inline-block;
+    position: relative;
+    color:grey;
+    padding-bottom: 5px;
+    margin: 9px;
+    font-weight: bold;
+    font-size: 12px;
+}
+.container .post .post2 .pt21 ul li:first-child:before{
+    content: ' ';
+    position: absolute;
+    width: 1px;
+    height: 15px;
+    right: -10px;
+    background-color: grey;
+}
+.container .post .post2 .pt21 a{
+    float: left;
+    width: 5%;
+    background-color: #F9F9F9;
+    padding-top: 45px;
+}
+.container .post .post2 .pt21 a i{
+    color: red;
+    position: absolute;
+    margin-left: -4px;
+    margin-top: -30px;
+}
+.container .post .post2 .pt21 h1{
+    padding: 10px;
+    font-weight: bold;
+    font-size: 15px;
+}
+.container .post .post2 .pt21 p{
+    padding: 10px;
+    font-size: 15px;
+}
+/*****gol4*******/
+.container .post .post2 .pt22{
+    float: left;
+    width: 40%;
+    text-align: justify;
+    margin-top: -38px;
+    margin-left: -46px;
+    background-color: white;
+    height: 385px;
+}
+.container .post .post2 .pt22 img{
+    width: 445px;
+}
+.container .post .post2 .pt22 ul{
+    float: left;
+    width: 95%;
+    background-color: #F9F9F9;
+    padding-top: 10px;
+}
+.container .post .post2 .pt22 ul li{
+    display: inline-block;
+    position: relative;
+    color:grey;
+    padding-bottom: 5px;
+    margin: 9px;
+    font-weight: bold;
+    font-size: 12px;
+}
+.container .post .post2 .pt22 ul li:first-child:before{
+    content: ' ';
+    position: absolute;
+    width: 1px;
+    height: 15px;
+    right: -10px;
+    background-color: grey;
+}
+.container .post .post2 .pt22 a{
+    float: left;
+    width: 5%;
+    background-color: #F9F9F9;
+    padding-top: 45px;
+}
+.container .post .post2 .pt22 a i{
+    color: red;
+    position: absolute;
+    margin-left: -4px;
+    margin-top: -30px;
+}
+.container .post .post2 .pt22 h1{
+    padding: 10px;
+    font-weight: bold;
+    font-size: 15px;
+}
+.container .post .post2 .pt22 p{
+    padding: 10px;
+    font-size: 15px;
+}
+.container .footer4{
+    background-color: var(--green-color);
+    padding: 26px;
+    box-sizing: border-box;
+    margin-top: -50px;
+
+}
+.container .footer4 h4{
+    font-weight: bold;
+    position: absolute;
+    margin: -5px 72px;
+    color: white;
+    /*font-family: "B Mitra";*/
+    font-size: 14px;
+}
+/*--------------end posts---------------------*/
+/*--------------start contact---------------------*/
+.container .contact{
+    background-color: #282828;
+}
+.container .contact #down-triangle3 {
+    width: 0;
+    height: 0;
+    border-top: 10px solid var(--green-color);
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    margin-left: 235px;
+}
+.container .contact .massage{
+    float: left;
+    width: 70%;
+    box-sizing: border-box;
+    padding: 75px;
+    color: white;
+}
+.container .massage input{
+    background-color: #b0a5a5;
+    color: white;
+}
+.container .contact .massage .form-group{
+    display:block;
+}
+.container .massage label input{
+}
+.container .massage label input#your-massage{
+    height: 220px;
+    padding-bottom: 180px;
+}
+/*::-webkit-input-placeholder {*/
+/*    color:white !important;*/
+/*}*/
+/*::-moz-placeholder {*/
+/*    color: white !important;*/
+/*}*/
+/*:-ms-input-placeholder {*/
+/*    color:white !important;*/
+/*}*/
+/*:-moz-placeholder {*/
+/*    color:white !important;*/
+/*}*/
+.container .contact .contact-detail{
+    float: left;
+    width: 30%;
+    position: absolute;
+    box-sizing: border-box;
+    padding-top: 75px;
+    padding-left: 234px;
+    margin-left: 543px;
+}
+
+.container .contact .contact-detail h1{
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+.container .contact .contact-detail p{}
+.container .contact .contact-detail i{
+    margin-bottom: 5px;
+    margin-top: 10px;
+}
+
+
+
+/*--------------end contact---------------------*/
+/*--------------start end site---------------------*/
+
+.container .end-site{
+    background-color: white;
+    color: #4e555b;
+    height: 170px;
+    text-align: center;
+    padding-top: 70px;
+}
+.container .end-site i{}
+.container .end-site ul.social2{}
+.container .end-site ul.social2 li {
+    color: #4e555b;
+    display: inline-block;
+        padding: 10px;
+        box-sizing: border-box;
+}
+.container .end-site ul li a{}
+.container .end-site ul li a i{
+    color:#4e555b;
+    font-size: 21px;
+}
+
+/*--------------end end site---------------------*/
+
+

@@ -1,0 +1,279 @@
+:root{
+    --bg-color: #EBEBEB;
+    --bg-header: #373737;
+    --sub-header: #474747;
+    --secondary: #F26C4F;
+    --container-size: 920px;
+    --font: Calibri;
+}
+
+.clearfix{
+    clear: both;
+    float: none;
+}
+.text-orange{
+    color: var(--secondary);
+}
+
+a{
+    text-decoration: none;
+}
+
+body{
+    background-color: var(--bg-color);
+    font-family: var(--font);
+}
+*, input, select, button{
+    font-family: var(--font);
+}
+
+.container{
+    width: var(--container-size);
+    margin: auto;
+}
+
+.form-group{
+    position: relative;
+    display: inline-block;
+}
+.form-group.input-lg input{
+    height: 45px;
+    font-size: 16px;
+    padding-left: 35px;
+}
+.form-group.input-lg i.fa{
+    font-size: 20px;
+    left: 8px;
+    top: 15px;
+}
+.form-group.icon-right i.fa{
+    left: initial!important;
+    right: 8px!important;
+    top: 15px;
+}
+.form-group.icon-right input{
+    padding-left: initial;
+    padding-right: 35px;
+}
+.form-group.icon-grey i.fa{
+    color: grey;
+}
+.form-group input{
+    height: 35px;
+    padding-left: 25px;
+}
+.form-group i.fa{
+    color: var(--secondary);
+    position: absolute;
+    left: 8px;
+    top: 11px;
+}
+
+/*---------Start Header-----------*/
+header{
+    background-color: var(--bg-header);
+    color: white;
+    height: 67px;
+    overflow: hidden;
+}
+header section.logo{
+    float: left;
+    width: 50%;
+}
+header section.logo img{}
+header section.logo h1{
+    display: inline-block;
+    font-size: 25px;
+    margin-left: 20px;
+    position: relative;
+    top: -25px;
+}
+header section.search{
+    float: left;
+    width: 50%;
+    text-align: right;
+    margin-top: 12px;
+}
+header section.search .form-group{
+    margin-left: 10px;
+}
+/*---------End Header-----------*/
+
+
+/*---------Start Sub-Header-----------*/
+nav.sub-header{
+    background-color: var(--sub-header);
+    padding: 20px 0;
+}
+
+
+nav.sub-header .menu-bar{
+    width: 50%;
+    display: inline-block;
+    height: 20px;
+    float: left;
+}
+nav.sub-header .menu-bar li{
+    display: inline-block;
+    margin-left: 20px;
+    position: relative;
+}
+nav.sub-header .menu-bar li:after{
+    content: ' ';
+    position: absolute;
+    right: -15px;
+    background-color: grey;
+    height: 14px;
+    top: 2px;
+    width: 1px;
+}
+nav.sub-header .menu-bar li:first-child:after,
+nav.sub-header .menu-bar li:last-child:after{
+    display: none;
+}
+nav.sub-header .menu-bar li.active:before,
+nav.sub-header .menu-bar li:hover:before{
+    content: ' ';
+    position: absolute;
+    background-color: var(--secondary);
+    height: 3px;
+    width: 100%;
+    top: 36px;
+}
+nav.sub-header .menu-bar li a{
+    color: white;
+}
+nav.sub-header .menu-bar li a i{}
+nav.sub-header .quick{
+    width: 50%;
+    display: inline-block;
+    height: 20px;
+    float: left;
+    text-align: right;
+    padding-right: 15px;
+    box-sizing: border-box;
+}
+nav.sub-header .quick li{
+    display: inline-block;
+    margin-left: 10px;
+    position: relative;
+}
+nav.sub-header .quick li:before{
+    content: ' ';
+    position: absolute;
+    width: 1px;
+    height: 15px;
+    right: -10px;
+    background-color: grey;
+}
+nav.sub-header .quick li a{
+    color: white;
+}
+nav.sub-header .quick li label{
+
+}
+nav.sub-header .quick a i{}
+nav.sub-header .quick select,
+nav.sub-header .quick select:focus{
+    background-color: transparent;
+    border: none;
+    color: white;
+    outline: none;
+}
+nav.sub-header .quick select option{
+    color: black;
+}
+/*---------End Sub-Header-----------*/
+
+/*---------Start Under Header-----------*/
+.under-header{
+    padding: 20px 0;
+}
+.under-header .filter{
+    width: 50%;
+    float: left;
+}
+.under-header .social{
+    width: 50%;
+    float: left;
+    text-align: right;
+    padding-top: 18px;
+}
+.under-header .social li{
+    display: inline-block;
+    margin-left: 15px;
+}
+.under-header .social li a{
+    color: grey;
+}
+.under-header .social li a i{}
+/*---------End Under Header-----------*/
+
+/*---------Start Slider-----------*/
+.slider{
+    position: relative;
+    margin: 30px 0;
+}
+.slider ul{}
+.slider ul li.active{
+    display: block;
+}
+.slider ul li{
+    display: none;
+}
+.slider ul li .image-box{
+    float: left;
+    width: 70%;
+    box-sizing: border-box;
+    position: relative;
+}
+.slider ul li .image-box img{
+    width: 100%;
+}
+.slider ul li .image-box h3{
+    position: absolute;
+    bottom: 3px;
+    right: 0;
+    background-color: rgba(0,0,0, 0.5);
+    color: white;
+    padding: 20px 25px;
+    /*border-radius: 20px;*/
+}
+.slider ul li .description-box{
+    padding: 10px;
+    color: white;
+    float: left;
+    width: 30%;
+    height: 398px;
+    box-sizing: border-box;
+    background-color: var(--bg-header);
+}
+.slider ul li .description-box h4{}
+.slider ul li .description-box p{}
+.slider ul li .description-box i{}
+.slider ul li .description-box span{}
+.slider ul li .description-box span i{}
+
+.slider .control-box{
+    position: absolute;
+    top: 348px;
+    right: 0;
+}
+.slider .control-box i{
+    font-size: 40px;
+    display: inline-block;
+    padding: 10px 20px;
+}
+.slider .control-box .next{
+    cursor: pointer;
+    background-color: rgba(255,255,255, 0.5);
+    color: black;
+    display: inline-block;
+}
+.slider .control-box .prev{
+    cursor: pointer;
+    background-color: rgba(255,255,255, 0.5);
+    color: black;
+    display: inline-block;
+}
+/*---------End Slider-----------*/
